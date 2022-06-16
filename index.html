@@ -6,11 +6,19 @@
     <meta name="author" content="Atomic_Keith">
     <meta http-equiv="refresh" content="60">
     <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="search-wrapper">
         <label for="search">Search Skins</label>
         <input type="search" id="search">
     </div>
+    <div class="user-cards" data-user-cards-container></div>
+    <template data-user-template>
+        <div class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </template>
 </body>
 </html>
